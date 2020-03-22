@@ -1,7 +1,9 @@
-#import employee type from functions
-from functions import employee
-
-
+class employee:
+    def __init__(self,empid,empname,age,ismarried):
+        self.empid = empid
+        self.empname=empname
+        self.age = age
+        self.ismmarried = ismarried
 emparr = [
     employee("4578", "Chunky", 18, True),
     employee("4579", "Punky ", 19, True),
